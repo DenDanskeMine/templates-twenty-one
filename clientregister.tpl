@@ -50,7 +50,7 @@
                                 <div class="form-group prepend-icon">
                                     <label for="inputLastName" class="field-icon">
                                         <i class="fas fa-user"></i>
-                                    </label>
+                                    </label>test
                                     <input type="text" name="lastname" id="inputLastName" class="field form-control" placeholder="{lang key='orderForm.lastName'}" value="{$clientlastname}" {if !in_array('lastname', $optionalFields)}required{/if}>
                                 </div>
                             </div>
